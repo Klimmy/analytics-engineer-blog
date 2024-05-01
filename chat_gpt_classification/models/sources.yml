@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+
+  - name: shiny_data
+    database: raw
+    schema: sandbox
+    tables:
+      - name: packages

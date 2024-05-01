@@ -1,0 +1,19 @@
+name: 'chat_gpt_classification'
+
+config-version: 2
+version: '0.1'
+
+profile: 'snowflake_profile'
+
+model-paths: ["models"]
+
+target-path: "target"
+clean-targets:
+    - "target"
+    - "dbt_modules"
+    - "logs"
+
+require-dbt-version: [">=1.8.0-b3", "<2.0.0"]
+
+models:
+  use_anonymous_sproc: True
