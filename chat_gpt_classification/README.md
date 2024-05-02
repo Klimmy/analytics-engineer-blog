@@ -40,4 +40,4 @@ dbt run
 ```
 
 This will take Shiny package titles, and create a `package_category` table in your database with category field generated from OpenAI API
-==Note, OpenAI API will charge for requests==
+> Note, OpenAI API will charge for requests
