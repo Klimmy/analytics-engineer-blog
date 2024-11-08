@@ -1,0 +1,10 @@
+target/
+dbt_modules/
+logs/
+.vscode
+.venv
+env/
+profiles.yml
+*.log
+logs/dbt.log
+.user.yml

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+
+  - name: ga4_public_data
+    database: bigquery-public-data
+    schema: google_analytics_sample
+    tables:
+      - name: ga_sessions
+        identifier: ga_sessions_*
